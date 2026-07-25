@@ -4,23 +4,23 @@
 
 This project presents a Mobile Application Vulnerability Assessment and Penetration Testing (VAPT) conducted on the **Termux Android Application** during my cybersecurity internship.
 
-The assessment focused on identifying security vulnerabilities through static and dynamic analysis, evaluating the application's security posture, and recommending remediation measures. The assessment identified security issues related to debug configuration, exported components, permission management, and application security best practices.
+The assessment focused on identifying security vulnerabilities through static and dynamic analysis, evaluating the application's security posture, and recommending remediation measures. Multiple High, Medium, Low, and Informational severity findings related to application configuration, exported components, permission management, and Android security best practices were identified during the assessment.
 
 ---
 
 ## Objectives
 
-- Perform Android application security assessment
-- Identify security vulnerabilities and misconfigurations
-- Validate findings through manual testing
-- Prepare a professional Mobile Application VAPT report
-- Recommend remediation measures
+- Assess the security posture of the Android application.
+- Identify security vulnerabilities and security misconfigurations.
+- Validate findings through manual testing.
+- Prepare a professional Mobile Application VAPT report.
+- Recommend appropriate remediation measures.
 
 ---
 
 ## Scope
 
-**Target:** Termux Android Application
+**Target Application:** Termux Android Application
 
 The assessment included:
 
@@ -35,9 +35,11 @@ The assessment included:
 
 ## Methodology
 
-This assessment followed the shared Android Application Security Testing methodology available in:
+This assessment followed the standard Android Application Vulnerability Assessment and Penetration Testing (VAPT) methodology used during the internship.
 
-**Android-Application-VAPT/methodology.md**
+For the complete methodology, see:
+
+**[Android Application VAPT Methodology](../methodology.md)**
 
 ---
 
@@ -72,12 +74,15 @@ This assessment followed the shared Android Application Security Testing methodo
 - Application Requests Permission to Install Packages
 - Exported Settings Activity
 
+The assessment identified several High, Medium, and Low severity vulnerabilities that could impact the application's security if left unaddressed. Appropriate remediation recommendations were provided to reduce the application's attack surface and improve overall security.
+
 ---
 
 ## Skills Demonstrated
 
 - Android Application Security Testing
-- Mobile Application VAPT
+- Mobile Application Penetration Testing
+- Vulnerability Assessment (VAPT)
 - Static Analysis
 - Dynamic Analysis
 - Reverse Engineering
@@ -90,11 +95,12 @@ This assessment followed the shared Android Application Security Testing methodo
 
 ## Repository Contents
 
-- `report.pdf` – Redacted Mobile Application VAPT Report
-- `screenshots/` – Supporting screenshots collected during testing
+- `README.md` – Project overview and assessment summary.
+- `Termux_Android_VAPT_Report.pdf` – Redacted Mobile Application VAPT report.
+- `screenshots/` – Supporting screenshots collected during the security assessment.
 
 ---
 
 ## Disclaimer
 
-This project is shared for educational and portfolio purposes only. Any confidential or sensitive information has been removed from the published report and supporting materials.
+This project is shared for educational and portfolio purposes only. Any confidential, sensitive, or personally identifiable information has been removed or redacted. The assessment was performed in an authorized environment during my cybersecurity internship.

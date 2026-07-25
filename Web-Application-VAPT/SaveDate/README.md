@@ -4,23 +4,23 @@
 
 This project presents a Vulnerability Assessment and Penetration Testing (VAPT) conducted on the **SaveDate.me** web application during my cybersecurity internship.
 
-The assessment focused on identifying security vulnerabilities, validating findings through manual testing, and providing remediation recommendations to improve the application's security posture. The engagement identified Medium, Low, and Informational severity findings related to security misconfigurations, request handling, authentication, and information disclosure. :contentReference[oaicite:0]{index=0}
+The assessment focused on identifying security vulnerabilities, validating findings through manual testing, and providing remediation recommendations to improve the application's security posture. Multiple Medium, Low, and Informational severity findings related to security misconfigurations, authentication, request handling, and information disclosure were identified during the assessment.
 
 ---
 
 ## Objectives
 
-- Assess the security posture of the web application
-- Identify security vulnerabilities and misconfigurations
-- Validate vulnerabilities using manual testing
-- Prepare a professional VAPT report
-- Recommend appropriate remediation measures
+- Assess the security posture of the web application.
+- Identify security vulnerabilities and security misconfigurations.
+- Validate findings through manual testing.
+- Prepare a professional Web Application VAPT report.
+- Recommend appropriate remediation measures.
 
 ---
 
 ## Scope
 
-**Target:** SaveDate.me Web Application
+**Target Application:** SaveDate.me
 
 The assessment included:
 
@@ -36,15 +36,11 @@ The assessment included:
 
 ## Methodology
 
-The assessment followed a structured Vulnerability Assessment and Penetration Testing (VAPT) methodology:
+This assessment followed the standard Web Application Vulnerability Assessment and Penetration Testing (VAPT) methodology used during the internship.
 
-- Information Gathering
-- Reconnaissance
-- Vulnerability Assessment
-- Manual Verification
-- Risk Analysis
-- Documentation
-- Remediation Recommendations
+For the complete methodology, see:
+
+**[Web Application VAPT Methodology](../methodology.md)**
 
 ---
 
@@ -69,16 +65,16 @@ The assessment followed a structured Vulnerability Assessment and Penetration Te
 ### Major Findings
 
 - CORS Misconfiguration
-- Absence of Anti-CSRF Tokens
+- Missing Anti-CSRF Tokens
 - WordPress User Enumeration
 - Cookie Without SameSite Attribute
-- Missing / Weak Security Headers
+- Missing or Weak Security Headers
 - Missing Subresource Integrity (SRI)
 - Password Auto-Complete Enabled
 - Server Information Disclosure
 - Information Disclosure via URL Parameters
 
-The assessment identified no Critical or High severity issues, but several Medium and Low severity findings that could increase the application's attack surface if left unaddressed. :contentReference[oaicite:1]{index=1}
+No Critical or High severity vulnerabilities were identified during the assessment. However, several Medium and Low severity findings were discovered that could increase the application's attack surface if left unaddressed.
 
 ---
 
@@ -98,11 +94,12 @@ The assessment identified no Critical or High severity issues, but several Mediu
 
 ## Repository Contents
 
-- `report.pdf` – Redacted VAPT Report
-- `screenshots/` – Evidence collected during testing
+- `README.md` – Project overview and assessment summary.
+- `Shijimol_S_Savedate_PentestReport.pdf` – Redacted Web Application VAPT report.
+- `screenshots/` – Evidence collected during the security assessment.
 
 ---
 
 ## Disclaimer
 
-This project is shared for educational and portfolio purposes only. Any confidential or sensitive information has been removed from the published report and supporting materials.
+This project is shared for educational and portfolio purposes only. Any confidential, sensitive, or personally identifiable information has been removed or redacted. The assessment was performed in an authorized environment during my cybersecurity internship.
